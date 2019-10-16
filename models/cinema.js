@@ -51,4 +51,10 @@ Cinema.prototype.filmsTotalDuration = function () {
   return result;
 };
 
+
+// should be able to filter films by genre
+Cinema.prototype.findByProperty = function (searchProperty, searchValue) {
+
+};
+
 module.exports = Cinema;
